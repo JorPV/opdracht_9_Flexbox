@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Contact formulier</title>
+    <link rel="stylesheet" type="text/css" href="styles.css"/>
+  </head>
+
+  <body>
+      <h1>Contact me!</h1>
+  
+      <form class="myform" name="contact" method="POST" data-netlify="true">
+          <p id="form_name">
+            <label>Your Name: </label><input type="text" name="name" />
+          </p>
+          <p id="form_email">
+            <label>Your Email: </label><input type="email" name="email" />
+          </p>
+          <p id="form_phone">
+            <label>Phone number: </label> <input type="text" name="Phone">
+          </p>
+          <p id="form_age"><label> Your age:</label>
+            <select name="age">
+            <option value="0">Select one range</option>
+            <option value="less-18"> Younger than 18 years old</option>
+            <option value="18-30"> 18 to 30 years old</option>
+            <option value="30-60"> 30 to 60 years old</option>
+            <option value="60-more">Older than 60 years old</option>
+            </select>
+            </p>
+          <p id="form_birthday">
+            <label>Date of birth: </label> <input type="date" name="birthday">
+          </p>
+          <p name="gender" class="radio_options">Gender:
+            <label for="male"><input type="radio"  name="gender" id="male" value="male">Male</label>
+            <label for="female"><input type="radio" name="gender" id="female" value="female">Female</label>
+            <label for="other"><input type="radio"  name="gender" id="other" value="other">Other</label>
+         </p>
+          <p name="fav_cuisine"> What is your favorite cuisine?</p>
+          <p class="checkbox">
+            <label for="french"><input type="checkbox" name="french" id="french">French</label>
+            <label for="italian"><input type="checkbox" name="italian" id="italian">Italian</label>
+            <label for="spanish"><input type="checkbox" name="spanish" id="spanish">Spanish</label>
+            <label for="arabic"><input type="checkbox" name="arabic" id="arabic">Arabic</label>
+          </p>
+          <p name="fav_apron"> What is your favorite color of apron?
+          <span id="apron_color"><input type="color" name="chosecolor" value="#990099"></span>
+          </p>
+          <p id="form_bio">
+            <label>Biography</label> 
+            <textarea name="biography"></textarea>
+          </p>
+          <p id="form_upload">
+            <label>Upload your last recipe</label>
+            <input type="file" name="upload">
+          </p>
+          <p name="to_our_website" class="link_recipe"> 
+            <a href="https://my-winc-website-jordi.netlify.app/">Have a look at our recipes website.</a>
+          </p>
+          <span>
+            <button type="reset" id="form_reset">Reset</button>
+          </span>
+          <span>
+            <button type="submit" id="form_submit">Submit</button>
+          </span>
+      </form>
+      <div class="leave-form">
+          <a href="index.html">Back to the home page.</a>
+      </div>
+
+  </body>
+</html>  

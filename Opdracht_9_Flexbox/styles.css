@@ -1,0 +1,389 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body{
+        background-color: #deeced;
+        line-height: 1.2em;
+}
+
+/*HOMEPAGE*/
+
+.header{ 
+    overflow: hidden;
+    margin: 0x;
+    padding: auto0;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 3em;
+    color: whitesmoke;
+    letter-spacing: 10px;
+    background-color: #555555 ;
+}
+
+.main-box{ 
+    border: 2px solid black; 
+    margin:1em;
+    background-color: #DDE0E3;
+}
+
+h2.intro {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 1.5em;
+    padding: 1.2em;
+    margin-bottom: 0%;
+    color:#78c5a3;
+}
+
+p{
+    font-family: cursive;
+    line-height:1.8em;
+    padding-left: 15px;
+    margin: 1em;
+}
+
+#img-index {
+    width: 50%;
+    border: 3px dotted rebeccapurple;
+    float: left;
+    margin: 2em;
+}
+
+#img-index:hover{
+    border:3px solid yellow;
+}
+
+.list ul {
+    display: block;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.7em;
+    margin: auto;
+    width: fit-content;
+    padding: 1em 11em 6em 11em;
+}
+
+.list li{
+    display: inline;
+    float: left;
+    overflow: hidden;
+    background-color: #333;
+    border-right:1px solid #bbb;
+    color: white;
+    text-align: center;
+    padding: 15px 16px;
+    margin:auto;
+
+}
+
+a:link {
+    color: red;
+    text-decoration: none;
+}
+  
+a:visited {
+    color: green;
+    text-decoration: none;
+}
+  
+a:hover {
+    color: hotpink;
+    text-decoration:none;
+}
+  
+a:active {
+    color: blue;
+    text-decoration: none;
+}
+
+.button {
+    display: inline;
+	color: #fff;
+	font-weight: bold;
+	padding: 7px;
+	border-radius: 8px;
+    border-style: outset;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    margin: 5px;
+}
+
+.button:hover{ 
+    background:yellowgreen;
+}
+
+.index-footer{
+    border-top: 1px #ccc double;
+    padding:20px;
+    margin:0;
+    background-color: teal;
+}
+
+.get-in-touch{
+    display: block;
+    border-radius: 8px;
+    padding: 15px;
+    margin: auto;
+}
+
+.footer{
+    text-align: right;
+}
+
+.footer strong {
+            color:yellowgreen; 
+            font-family: calibri;
+            font-size: 20px;;
+}
+
+h2{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 12px 0px 0px 20px;
+    color:rebeccapurple;
+    margin-bottom: 10%;
+    font-size: 20px;
+}
+
+/*ABOUT ME*/
+
+.about-me{
+    font-size:17px;
+    color:darkorchid;
+    line-height:1.8em;
+    padding-top: 7em;
+}
+
+#aboutme{
+    font-family: 'Franklin Gothic Medium';
+    text-align:right; 
+    text-decoration: none;
+}
+
+.para2{
+    color: #38b19d;
+    text-align: left;
+    font-size: large;
+}
+
+.img-about{
+    border: 2px solid #999;
+	background-color: yellowgreen;
+	padding: 3px;  
+    animation-name:rotate; 
+    animation-duration: 25s; 
+    animation-timing-function: linear; 
+    animation-iteration-count: infinite;
+    border-radius: 10px;
+    display: inline-block;
+    margin-left: 10%;
+    margin-right: auto;
+    width: 38%;
+    overflow: hidden;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(359deg);
+}
+}
+.img-about:hover{
+    border:5px solid whitesmoke; 
+}
+
+.hobbies{
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    padding-left:3em;
+    font-size: 18px;
+    color:#42615c;
+    list-style-image: url('images/check.jpg')
+}
+
+h3{ 
+    color:firebrick; 
+    text-align:left; 
+    padding: 20px 0px 0px 33px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+}
+
+#backhome{
+    text-decoration: none;
+    text-align:center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    background-color:white;
+	font-weight: lighter;
+	padding: 15px;
+	border-radius: 6px;
+    border-bottom-color: black;
+    border-bottom-style: solid;
+}
+
+.about-footer{
+    border-top: 1px #ccc double;
+    padding:35px;
+    margin:0;
+    background-color: rgb(163, 212, 185);
+}
+
+/*FORM*/ 
+
+.myform{
+    padding:22px;
+}
+
+.myform label{
+    display:block;
+}
+
+#form_reset{
+    margin:5%;
+}
+
+#apron_color{
+    padding-left: 30px;
+}
+
+.myform input, .myform textarea, .myform select {
+    padding: 8px;
+    width: 45%;
+}
+
+.radio_options input, .checkbox input{
+    width: 35px;
+}
+
+#apron_color input{
+    width:80px;
+    height: 50px;
+}
+
+#form_upload{
+    margin-bottom: 2.5em;
+}
+
+.link_recipe a{
+    color: #990089;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 16px;
+    outline: double;
+    padding:10px;
+}
+
+.myform button{
+    margin-top: 18px;
+    background-color:#bbb;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    font-size: 16px;
+}
+
+.myform button:hover{
+    background-color:#333;
+    color: #38b19d;
+}
+
+.leave-form{
+    text-align: center; 
+    margin-bottom: 3em;
+    color:whitesmoke; 
+    font-family: sans-serif;
+    font-size: large; 
+    font-weight: bold;
+}
+
+/*BLOG*/
+/*flexbox containers*/
+
+.blogpost { width: 300px; 
+    display: flex;
+    justify-content: center;
+}
+
+.menu_container{
+    display: flex;
+    justify-content:space-around;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    padding: 10px; 
+}
+
+.my_blog-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.blogpost_3 {
+    text-align: center;
+}
+
+.blogpost_2{
+    display: flex;
+    flex-grow: 2;
+}
+
+.blogpost_1, .blogpost_2, .blogpost_3, .blogpost_4, .blogpost_5 {
+    border: 1px solid black;  
+    text-align: center;
+    margin: 30px;
+    padding: 3px;
+}
+
+.blog_button{
+    background-color:#bbb;
+    color: #fff;
+    padding:15px 20px;
+    border:none;
+    font-size: 16px;
+    cursor:pointer; 
+    display: flex;
+    align-self: flex-end;
+}
+
+/*MediaQueries*/ 
+
+@media (max-width:800px){
+
+.index-footer{
+    background-color: yellow;
+}
+
+.list li{
+    width: 100%;
+}
+
+h1{
+    line-height: 1.3em;
+}
+
+.para1{
+    color:rgb(65, 65, 201);
+    font-size: 18px;
+}
+}
+
+@media (max-width: 1024px) {
+
+body{
+    background-color: tomato;
+    }
+}
+
+.formulier{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
